@@ -1,10 +1,10 @@
 const config = {
   auth: {
-    enabled: true,
+    enabled: true, // Set to false if not using Clerk
   },
   payments: {
-    enabled: true,
-  },
+    enabled: true, // Set to false if not using Stripe
+  }
 };
 
 export default config;
